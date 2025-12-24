@@ -62,7 +62,7 @@ defmodule Day5.Part2 do
     |> find_fresh_ingredients_from_ranges()
   end
 
-  def difference_of_two_ranges(a_start..a_end = range_a, b_start..b_end = range_b) do
+  def difference_of_two_ranges(a_start..a_end//1 = range_a, b_start..b_end//1 = _range_b) do
     # Normalize ranges to ensure start <= end for easier logic
     {s1, e1} = if a_start <= a_end, do: {a_start, a_end}, else: {a_end, a_start}
     {s2, e2} = if b_start <= b_end, do: {b_start, b_end}, else: {b_end, b_start}
