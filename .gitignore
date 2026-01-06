@@ -1,1 +1,5 @@
 .expert
+.elixir_ls
+deps
+mix.lock
+_build
