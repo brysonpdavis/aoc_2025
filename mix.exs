@@ -5,7 +5,7 @@ defmodule AdventOfCode2025.MixProject do
     [
       app: :advent_of_code_2025,
       version: "0.1.0",
-      elixir: "1.15.5",
+      elixir: ">=1.15.5",
       deps: deps(),
     ]
   end
